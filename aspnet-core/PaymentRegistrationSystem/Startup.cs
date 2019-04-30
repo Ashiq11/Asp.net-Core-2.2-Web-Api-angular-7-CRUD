@@ -41,6 +41,9 @@ namespace PaymentRegistrationSystem
             services.AddDbContext<PaymentDetailDbContext>(options =>
             options.UseSqlServer(Configuration.GetConnectionString("Default")));
 
+            //cors added Ashiq
+            services.AddCors();
+
             /*
             services.AddSwaggerGen(options =>
             {
@@ -61,6 +64,13 @@ namespace PaymentRegistrationSystem
             {
                 app.UseDeveloperExceptionPage();
             }
+
+            //use of cors -Ashiq
+            app.UseCors(options =>
+             options.WithOrigins("http://localhost:4200")
+             .AllowAnyMethod()
+             .AllowAnyHeader());
+
 
             app.UseMvc();
 

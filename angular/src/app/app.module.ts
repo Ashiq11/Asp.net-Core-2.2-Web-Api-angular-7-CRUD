@@ -8,6 +8,9 @@ import { PaymentDetailsComponent } from './main/payment-details/payment-details.
 import { CreateOrEditPaymentDetailComponent } from './main/payment-details/create-or-edit-payment-detail.component';
 import { ViewPaymentDetailComponent } from './main/payment-details/view-payment-detail.component';
 import { PaymentDetailService } from './main/shared/payment-detail.service';
+import { HttpClientModule } from '@angular/common/http';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ToastrModule } from 'ngx-toastr';
 
 @NgModule({
   declarations: [
@@ -19,7 +22,10 @@ import { PaymentDetailService } from './main/shared/payment-detail.service';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule,
+    BrowserAnimationsModule, // required animations module
+    ToastrModule.forRoot() // ToastrModule added
   ],
   providers: [PaymentDetailService],
   bootstrap: [AppComponent]

@@ -17,6 +17,7 @@ F:\Asp.net Core 2.2 & angular 7 CRUD\aspnet-core\PaymentRegistrationSystem\bin\D
 F:\Asp.net Core 2.2 & angular 7 CRUD\aspnet-core\PaymentRegistrationSystem\bin\Debug\netcoreapp2.2\PaymentRegistrationSystem.runtimeconfig.dev.json
 F:\Asp.net Core 2.2 & angular 7 CRUD\aspnet-core\PaymentRegistrationSystem\bin\Debug\netcoreapp2.2\PaymentRegistrationSystem.dll
 F:\Asp.net Core 2.2 & angular 7 CRUD\aspnet-core\PaymentRegistrationSystem\bin\Debug\netcoreapp2.2\PaymentRegistrationSystem.pdb
+F:\Asp.net Core 2.2 & angular 7 CRUD\aspnet-core\PaymentRegistrationSystem\obj\Debug\netcoreapp2.2\PaymentRegistrationSystem.csprojAssemblyReference.cache
 F:\Asp.net Core 2.2 & angular 7 CRUD\aspnet-core\PaymentRegistrationSystem\obj\Debug\netcoreapp2.2\PaymentRegistrationSystem.csproj.CoreCompileInputs.cache
 F:\Asp.net Core 2.2 & angular 7 CRUD\aspnet-core\PaymentRegistrationSystem\obj\Debug\netcoreapp2.2\PaymentRegistrationSystem.RazorAssemblyInfo.cache
 F:\Asp.net Core 2.2 & angular 7 CRUD\aspnet-core\PaymentRegistrationSystem\obj\Debug\netcoreapp2.2\PaymentRegistrationSystem.RazorAssemblyInfo.cs
